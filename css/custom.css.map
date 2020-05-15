@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,QAAQ;CAEG;;AALzB,AAII,IAJA,CAIA,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CAAG;;AAEvB,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,KAAK;CAAG",
+    "sources": [
+        "../sass/custom.sass"
+    ],
+    "names": [],
+    "file": "custom.css"
+}

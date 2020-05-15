@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+body p {
+  color: black;
+}
+
+canvas {
+  display: block;
+}
+/*# sourceMappingURL=custom.css.map */

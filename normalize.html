@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proposals | PwC Brand</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body data-spy="scroll" data-target="#navigation">
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .bg-placeholder {
+      border-radius: 1000px 1000px 1000px 0;
+    }
+
+    body {
+      position: relative;
+    }
+
+    .logo {
+      width: 70px;
+      height: auto;
+    }
+
+    article {
+      padding: 40px;
+    }
+
+    .btn {
+      margin-bottom: 10px;
+    }
+
+    nav.lnav ul li a {
+      color: #7d7d7d;
+      transition: 0.1s ease;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+    }
+
+    .bg-lightb {
+      background-color: #f5f5f5;
+    }
+
+    nav.lnav ul li a.active {
+      border-right: 5px solid;
+      font-size: x-large !important;
+    }
+
+    nav.lnav ul li a:hover {
+      color: white;
+      font-size: large;
+    }
+
+    p.white {
+      color: white;
+    }
+
+    .color-box {
+      width: 85px;
+      text-align: center;
+      padding: 10px;
+      display: inline-block;
+      color: white;
+      font-size: 12px;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    @media screen and (max-width: 768px) {
+      .display-4 {
+        font-size: 2.5em;
+      }
+    }
+
+    .nav-link.active {
+      background-color: transparent !important;
+      border-bottom-color: transparent !important;
+    }
+
+    .nav-link {
+      font-size: 12px;
+      border-radius: 0 !important;
+    }
+  </style>
+
+  <div class="container-fluid h-100 no-gutters">
+    <div class="row h-100">
+      <nav
+        class="d-none col-md-3 d-md-flex bg-black h-100 align-items-center fixed-top justify-content-end text-right lnav"
+        id="navigation">
+        <ul class="nav flex-column">
+          <!-- <li class="nav-item"><a class="nav-link" href="#howto">How to</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#headings">Fonts</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#paragraphs">Paragraphs</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#backgrounds">Backgrounds</a></li>
+          <li class="nav-item"><a class="nav-link" href="#colored_buttons">Buttons</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bordered_buttons">Bordered Buttons</a></li>
+          <li class="nav-item"><a class="nav-link" href="#text_links">Text links</a></li>
+          <li class="nav-item"><a class="nav-link" href="#logo">Logo</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#table">Table</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#header">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Footer</a></li>
+          <li class="nav-item"><a class="nav-link" href="#loader">Loader</a></li>
+        </ul>
+      </nav>
+
+      <div class="col-sm-12 col-md-9 offset-md-3 no-gutters p-0">
+        <section class="container-fluid no-gutters p-0">
+
+
+
+          <article id="headings">
+            <h2 class="display-4 mb-5">Text and Fonts</h2>
+            <div class="tab-content p-3" id="nav-tabContent-headings">
+              <div class="tab-pane fade show active" id="nav-regular-headings" role="tabpanel"
+                aria-labelledby="nav-regular-headings">
+                <div class="row">
+
+                  <div class="col-md-12 col-lg-6">
+                    <h1 class="mb-0">Heading 1</h1>
+                    <p><small><code>ITC-Charter, regular, 38px / 32px</code></small></p>
+                    <h2 class="mb-0">Heading 2</h2>
+                    <p><small><code>ITC-Charter, regular, 35px / 30px</code></small></p>
+                    <h3 class="mb-0">Heading 3</h3>
+                    <p><small><code>ITC-Charter, regular, 28px / 24px</code></small></p>
+                    <h4 class="mb-0">Heading 4</h4>
+                    <p><small><code>ITC-Charter, regular, 24px / 21px</code></small></p>
+                    <h5 class="mb-0">Heading 5</h5>
+                    <p><small><code>ITC-Charter, regular, 20px / 17px</code></small></p>
+                    <h6 class="mb-0">Heading 6</h6>
+                    <p><small><code>ITC-Charter, regular, 18px / 15px</code></small></p>
+                    <p class="mb-0">Body copy</p>
+                    <p><small><code>Helvetica, regular, 16px / 14px</code></small></p>
+                    <br>
+                  </div>
+
+                  <div class="col-md-12 col-lg-6">
+                    <p class="lead mb-0 px-3">Color</p>
+                    <p class="px-3"><small>Add class
+                        <code>.color-{red|orange|tangerine|yellow|rose|black|dark-grey|grey|light-grey|lighter-grey|white}</code></small>
+                    </p>
+                    <h1 class="color-orange px-3">Heading 1</h1>
+                    <h2 class="color-tangerine px-3">Heading 2</h2>
+                    <h3 class="color-red px-3">Heading 3</h3>
+                    <h4 class="color-rose px-3">Heading 4</h4>
+                    <h5 class="color-yellow px-3">Heading 5</h5>
+                    <h6 class="color-grey px-3">Heading 6</h6>
+                    <p class="color-white bg-dark-grey px-3 d-inline-block">Body copy</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+
+
+          <article id="backgrounds" class="bg-lightb">
+            <h2 class="display-4 mb-5">Backgrounds</h2>
+
+            <div class="tab-content" id="nav-tabContent-backgrounds">
+              <br>
+              <div class="tab-pane fade show active row" id="nav-output-backgrounds" role="tabpanel"
+                aria-labelledby="nav-output-tab-backgrounds">
+                <div class="bg-red bg-placeholder d-inline-block p-3 color-white"><small>.bg-red</small></div>
+                <div class="bg-orange bg-placeholder d-inline-block p-3 mb-1 color-white"><small>.bg-orange</small>
+                </div>
+                <div class="bg-tangerine bg-placeholder d-inline-block p-3"><small>.bg-tangerine</small></div>
+                <div class="bg-yellow bg-placeholder d-inline-block p-3"><small>.bg-yellow</small></div>
+                <div class="bg-rose bg-placeholder d-inline-block p-3 color-white"><small>.bg-rose</small></div>
+                <div class="bg-rose-white-text bg-placeholder d-inline-block p-3 mb-3 color-white">
+                  <small>.bg-rose-white-text</small></div>
+                <br>
+                <div class="bg-black bg-placeholder d-inline-block p-3 color-white"><small>.bg-black</small></div>
+                <div class="bg-dark-grey bg-placeholder d-inline-block p-3 color-white"><small>.bg-dark-grey</small>
+                </div>
+                <div class="bg-grey bg-placeholder d-inline-block p-3 color-white"><small>.bg-grey</small></div>
+                <div class="bg-light-grey bg-placeholder d-inline-block p-3 color-white"><small>.bg-light-grey</small>
+                </div>
+                <div class="bg-lighter-grey bg-placeholder d-inline-block p-3"><small>.bg-lighter-grey</small></div>
+                <div class="bg-white bg-placeholder d-inline-block p-3 mb-3"><small>.bg-white</small></div>
+                <br>
+                <div class="bg-purple bg-placeholder d-inline-block p-3 color-white"><small>.bg-purple</small></div>
+                <div class="bg-green bg-placeholder d-inline-block p-3 color-white"><small>.bg-green</small></div>
+                <div class="bg-blue bg-placeholder d-inline-block p-3 mb-3 color-white"><small>.bg-blue</small></div>
+              </div>
+            </div>
+            <p><small>Add class
+                <code>.bg-{red|orange|tangerine|yellow|rose|lightgrey|grey|darkgrey|black|white}</code></small></p>
+
+            <div class="tab-content" id="nav-tabContent-backgrounds2">
+              <br>
+              <div class="tab-pane fade show active row" id="nav-output-backgrounds" role="tabpanel"
+                aria-labelledby="nav-output-tab-backgrounds">
+                <div class="bg-darker-red bg-placeholder d-inline-block p-3 mb-1 color-white">
+                  <small>.bg-darker-red</small></div>
+                <div class="bg-dark-red bg-placeholder d-inline-block p-3 mb-1 color-white"><small>.bg-dark-red</small>
+                </div>
+                <div class="bg-red bg-placeholder d-inline-block p-3 mb-1 color-white"><small>.bg-red</small></div>
+                <div class="bg-light-red bg-placeholder d-inline-block p-3 mb-1"><small>.bg-light-red</small></div>
+                <div class="bg-lighter-red bg-placeholder d-inline-block p-3 mb-1"><small>.bg-lighter-red</small></div>
+              </div>
+            </div>
+            <p><small>For darker and lighter colors, add class
+                <code>.bg-{lighter|light|dark|darker}-color</code></small></p>
+          </article>
+
+
+
+          <article id="colored_buttons">
+            <h2 class="display-4">Buttons</h2>
+
+            <div class="tab-content" id="nav-tabContent-colored-buttons">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-colored-buttons" role="tabpanel"
+                aria-labelledby="nav-output-tab-colored-buttons">
+                <p class="lead mb-0">Regular</p>
+                <p><small>Add classes <code>.btn</code> and
+                    <code>.btn-{red|orange|tangerine|yellow|rose|black|dark-grey|grey|light-grey|lighter-grey|white}</code>
+                    to the &lt;a&gt; tag</small>
+                </p>
+                <a href="#" class="btn btn-red">.btn-red</a>
+                <a href="#" class="btn btn-orange">.btn-orange</a>
+                <a href="#" class="btn btn-tangerine">.btn-tangerine</a>
+                <a href="#" class="btn btn-yellow">.btn-yellow</a>
+                <a href="#" class="btn btn-rose">.btn-rose</a>
+                <br class="mb-3">
+                <a href="#" class="btn btn-black">.btn-black</a>
+                <a href="#" class="btn btn-dark-grey">.btn-dark-grey</a>
+                <a href="#" class="btn btn-grey">.btn-grey</a>
+                <a href="#" class="btn btn-light-grey">.btn-light-grey</a>
+                <a href="#" class="btn btn-lighter-grey">.btn-lighter-grey</a>
+                <a href="#" class="btn btn-white">.btn-white</a>
+                <br class="mb-3">
+                <p class="lead mt-4 mb-0">Large</p>
+                <p><small>Add classes <code>.btn .large</code> and
+                    <code>.btn-{red|orange|tangerine|yellow|rose|black|dark-grey|grey|light-grey|lighter-grey|white}</code>
+                    to the &lt;a&gt; tag</small>
+                </p>
+
+                <a href="#" class="btn large btn-red">.large .btn-red</a>
+                <a href="#" class="btn large btn-orange">.large .btn-orange</a>
+                <a href="#" class="btn large btn-tangerine">.large .btn-tangerine</a>
+                <a href="#" class="btn large btn-yellow">.large .btn-yellow</a>
+                <a href="#" class="btn large btn-rose">.large .btn-rose</a>
+                <br class="mb-3">
+                <a href="#" class="btn large btn-black">.large .btn-black</a>
+                <a href="#" class="btn large btn-dark-grey">.large .btn-dark-grey</a>
+                <a href="#" class="btn large btn-grey">.large .btn-grey</a>
+                <a href="#" class="btn large btn-light-grey">.large .btn-light-grey</a>
+                <a href="#" class="btn large btn-lighter-grey">.large .btn-lighter-grey</a>
+                <a href="#" class="btn large btn-white">.large .btn-white</a>
+                <br class="mb-3">
+              </div>
+            </div>
+          </article>
+
+
+
+          <article id="bordered_buttons" class="bg-lightb">
+            <h2 class="display-4">Bordered buttons</h2>
+            <div class="tab-content" id="nav-tabContent-bordered-buttons">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-bordered-buttons" role="tabpanel"
+                aria-labelledby="nav-output-tab-bordered-buttons">
+                <p class="lead mb-0">Bordered</p>
+                <p><small>Add classes <code>.btn</code> and
+                    <code>.bordered</code> to the &lt;a&gt; tag</small>
+                </p>
+                <a href="#" class="btn bordered btn-red">.bordered .btn-red</a>
+                <a href="#" class="btn bordered btn-orange">.bordered .btn-orange</a>
+                <a href="#" class="btn bordered btn-tangerine">.bordered .btn-tangerine</a>
+                <a href="#" class="btn bordered btn-yellow">.bordered .btn-yellow</a>
+                <a href="#" class="btn bordered btn-rose">.bordered .btn-rose</a>
+                <br class="mb-3">
+                <a href="#" class="btn bordered btn-black">.bordered .btn-black</a>
+                <a href="#" class="btn bordered btn-dark-grey">.bordered .btn-dark-grey</a>
+                <a href="#" class="btn bordered btn-grey">.bordered .btn-grey</a>
+                <a href="#" class="btn bordered btn-light-grey">.bordered .btn-light-grey</a>
+                <a href="#" class="btn bordered btn-white">.bordered .btn-white</a>
+                <a href="#" class="btn bordered btn-lighter-grey">.bordered .btn-lighter-grey</a>
+                <br class="mb-3">
+                <p class="lead mt-4 mb-0">Large</p>
+                <p><small>Add classes <code>.btn .large</code> and
+                    <code>.bordered</code> to the &lt;a&gt; tag</small>
+                </p>
+
+                <a href="#" class="btn bordered large btn-red">.bordered .large .btn-red</a>
+                <a href="#" class="btn bordered large btn-orange">.bordered .large .btn-orange</a>
+                <a href="#" class="btn bordered large btn-tangerine">.bordered .large .btn-tangerine</a>
+                <a href="#" class="btn bordered large btn-yellow">.bordered .large .btn-yellow</a>
+                <a href="#" class="btn bordered large btn-rose">.bordered .large .btn-rose</a>
+                <br class="mb-3">
+                <a href="#" class="btn bordered large btn-black">.bordered .large .btn-black</a>
+                <a href="#" class="btn bordered large btn-dark-grey">.bordered .large .btn-dark-grey</a>
+                <a href="#" class="btn bordered large btn-grey">.bordered .large .btn-grey</a>
+                <a href="#" class="btn bordered large btn-light-grey">.bordered .large .btn-light-grey</a>
+                <a href="#" class="btn bordered large btn-white">.bordered .large .btn-white</a>
+                <a href="#" class="btn bordered large btn-lighter-grey">.bordered .large .btn-lighter-grey</a>
+                <br class="mb-3">
+              </div>
+            </div>
+          </article>
+
+
+
+          <article id="text_links">
+            <h2 class="display-4">Text links</h2>
+            <div class="tab-content" id="nav-tabContent-textlinks">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-textlinks" role="tabpanel"
+                aria-labelledby="nav-output-tab-textlinks">
+                <p><small>The correct tags to use in a text-link is a tag &lt;a&gt; with the class of the text-link,
+                    then inside the tag &lt;a&gt; you must add the tag of the text you want, for example &lt;h3&gt;,
+                    &lt;h4&gt;, etc.</small></p>
+                <p><small>Add class <code>.text-link </code>and
+                    <code>.{red|orange|tangerine|yellow|rose|black|dark-grey|grey|light-grey|lighter-grey|white}-link</code>
+                    to the &lt;a&gt; tag</small>
+                </p>
+                <a href="#" class="text-link red-link">.text-link red-link</a>
+                <a href="#" class="text-link orange-link">.text-link orange-link</a>
+                <a href="#" class="text-link tangerine-link">.text-link tangerine-link</a>
+                <a href="#" class="text-link yellow-link">.text-link yellow-link</a>
+                <a href="#" class="text-link rose-link">.text-link rose-link</a>
+                <br>
+                <br>
+                <a href="#" class="text-link black-link">.text-link black-link</a>
+                <a href="#" class="text-link dark-grey-link">.text-link dark-grey-link</a>
+                <a href="#" class="text-link grey-link">.text-link grey-link</a>
+                <a href="#" class="text-link light-grey-link">.text-link light-grey-link</a>
+                <a href="#" class="text-link lighter-grey-link">.text-link lighter-grey-link</a>
+                <div class="bg-dark-grey d-inline-block px-3">
+                  <a href="#" class="text-link white-link">.text-link white-link</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+
+
+          <article id="logo" class="bg-lightb">
+            <h2 class="display-4">Logo</h2>
+            <div class="tab-content" id="nav-tabContent-logo">
+              <br>
+
+              <div class="tab-pane fade show active" id="nav-output-logo" role="tabpanel"
+                aria-labelledby="nav-output-tab-logo">
+                <p><small>Add <code>-white</code> or <code>-black</code> or nothing to the <b>src</b> of the
+                    <b>img</b> in the menu</small></p>
+                <img src="img/pwc-logo.svg" class="logo">
+                <div class="d-inline-block mx-4 p-3 bg-black"><img src="img/pwc-logo-white.svg" class="logo"></div>
+                <img src="img/pwc-logo-black.svg" class="logo">
+              </div>
+
+            </div>
+          </article>
+
+
+
+          <article id="header">
+            <h2 class="display-4">Menu</h2>
+            <p><small>
+                There are two different menus, the <b>Hamburguer Menu</b> and <b>Bar Menu</b>, you just copy and paste
+                any of them in your html file. Don't forget that you are able to change the styles like background-color
+                and the logo. If you want to change the background color just use the <code>.bg-{color}</code> in the
+                &lt;nav&gt; tag.
+              </small></p>
+            <nav>
+              <div class="nav nav-tabs justify-content-end" id="nav-tab-header" role="tablist">
+                <a class="nav-item nav-link active" id="nav-output-tab-header" data-toggle="tab"
+                  href="#nav-output-header" role="tab" aria-controls="nav-output" aria-selected="true">Output</a>
+                <a class="nav-item nav-link" id="nav-output-tab-header" data-toggle="tab" href="#nav-code-header"
+                  role="tab" aria-controls="nav-code" aria-selected="false">Code</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent-footer">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-header" role="tabpanel"
+                aria-labelledby="nav-output-tab-header">
+
+                <p class="lead">Hamburguer Menu</p>
+                <!-- Header -->
+                <header id="navMenu">
+                  <nav class="navbar bg-black px-0 w-100">
+                    <div class="container">
+                      <a class="navbar-brand py-0 d-flex align-items-end clientBox" href="index.html">
+                        <img src="img/pwc-logo-white.svg" alt="Logo of PwC" class="logo">
+                        <p class="color-white client">Client</p>
+                      </a>
+                      <div class="justify-content-end" id="hamburguer">
+                        <div class="bar bg-white"></div>
+                        <div class="bar bg-white"></div>
+                        <div class="bar bg-white"></div>
+                      </div>
+                    </div>
+                  </nav>
+
+                  <div id="sideBar" class="bg-black">
+                    <ul>
+                      <li>
+                        <a href="#" class="color-white linkName">Home</a>
+                      </li>
+                      <li>
+                        <a href="#" class="color-white linkName">About us</a>
+                      </li>
+                      <li>
+                        <a href="#" class="color-white linkName">Proposal</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </header>
+
+              </div>
+              <div class="tab-pane fade" id="nav-code-header" role="tabpanel" aria-labelledby="nav-code-tab-footer">
+                <p>Hamburguer Menu</p>
+                <code>&lt;header id="navMenu"&gt;</code><br>
+                <code>&lt;nav class="navbar bg-black px-0 fixed-top w-100"&gt;</code><br>
+                <code>&lt;div class="container"&gt;</code><br>
+                <code>&lt;a class="navbar-brand py-0 d-flex align-items-end clientBox" href="index.html"&gt;</code><br>
+                <code>&lt;img src="img/pwc-logo-white.svg" alt="Logo of PwC" class="logo"&gt;</code><br>
+                <code>&lt;p class="color-white client"&gt;Client&lt;/p&gt;</code><br>
+                <code>&lt;/a&gt;</code><br>
+                <code>&lt;div class="justify-content-end" id="hamburguer"&gt;</code><br>
+                <code>&lt;div class="bar bg-white"&gt;&lt;/div&gt;</code><br>
+                <code>&lt;div class="bar bg-white"&gt;&lt;/div&gt;</code><br>
+                <code>&lt;div class="bar bg-white"&gt;&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/nav&gt;</code><br>
+
+                <code>&lt;div id="sideBar" class="bg-black"&gt;</code><br>
+                <code>&lt;ul&gt;</code><br>
+                <code>&lt;li&gt;</code><br>
+                <code>&lt;a href="#" class="color-white linkName"&gt;Home&lt;/a&gt;</code><br>
+                <code>&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;</code><br>
+                <code>&lt;a href="#" class="color-white linkName"&gt;Proposal&lt;/a&gt;</code><br>
+                <code>&lt;/li&gt;</code><br>
+                <code>&lt;/ul&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/header&gt;</code><br>
+                <br>
+                <p> <small>JavasScript Hamburguer</small></p>
+                <code>$("#hamburguer").click(function(){<br>
+                  $("#navMenu").toggleClass("active");<br>
+                });</code>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="color-red">
+                  <p class="color-black">Bar Menu</p>
+                  <code>&lt;header id="navbar1"&gt;</code><br>
+                  <code>&lt;nav class="navbar bg-black fixed-top navbar-expand-lg navbar-dark"&gt;</code><br>
+                  <code>&lt;div class="container"&gt;</code><br>
+                  <code>&lt;a class="navbar-brand d-flex align-items-end py-0" href="index.html"&gt;</code><br>
+                  <code>&lt;img src="img/pwc-logo-white.svg" alt="Logo of PwC" class="logo"&gt;</code><br>
+                  <code>&lt;p class="client color-white border-white"&gt;Client&lt;/p&gt;</code><br>
+                  <code>&lt;/a&gt;</code><br>
+                  <code>&lt;button class="navbar-toggler collapsed p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&gt;</code><br>
+                  <code>&lt;span class="icon-bar icon-bar-1 bg-white"&gt;&lt;/span&gt;</code><br>
+                  <code>&lt;span class="icon-bar icon-bar-2 bg-white my-2"&gt;&lt;/span&gt;</code><br>
+                  <code>&lt;span class="icon-bar icon-bar-3 bg-white"&gt;&lt;/span&gt;</code><br>
+                  <code>&lt;/button&gt;</code><br>
+
+                  <code>&lt;div class="collapse navbar-collapse py-2 justify-content-end" id="navbarNav"&gt;</code><br>
+                  <code>&lt;ul class="navbar-nav"&gt;</code><br>
+                  <code>&lt;li class="nav-item active"&gt;</code><br>
+                  <code>&lt;a class="nav-link d-inline-block color-white" href="#"&gt;Home&lt;/a&gt;</code><br>
+                  <code>&lt;/li&gt;</code><br>
+                  <code>&lt;li class="nav-item"&gt;</code><br>
+                  <code>&lt;a class="nav-link d-inline-block color-white" href="#"&gt;Proposal&lt;/a&gt;</code><br>
+                  <code>&lt;/li&gt;</code><br>
+                  <code>&lt;/ul&gt;</code><br>
+                  <code>&lt;/div&gt;</code><br>
+                  <code>&lt;/div&gt;</code><br>
+                  <code>&lt;/nav&gt;</code><br>
+                  <code>&lt;/header&gt;</code><br>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-content" id="nav-tabContent-footer">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-header" role="tabpanel"
+                aria-labelledby="nav-output-tab-header">
+
+                <p class="lead">Bar Menu</p>
+                <!-- Header -->
+                <header id="navbar1">
+                  <nav class="navbar bg-black navbar-expand-lg navbar-dark">
+                    <div class="container">
+                      <a class="navbar-brand d-flex align-items-end py-0" href="index.html">
+                        <img src="img/pwc-logo-white.svg" alt="Logo of PwC" class="logo">
+                        <p class="client color-white border-white">Client</p>
+                      </a>
+                      <button class="navbar-toggler collapsed p-0" type="button" data-toggle="collapse"
+                        data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="icon-bar icon-bar-1 bg-white"></span>
+                        <span class="icon-bar icon-bar-2 bg-white my-2"></span>
+                        <span class="icon-bar icon-bar-3 bg-white"></span>
+                      </button>
+                      <div class="collapse navbar-collapse py-2 justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item active">
+                            <a class="nav-link d-inline-block color-white" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link d-inline-block color-white" href="#">Proposal</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link d-inline-block color-white" href="#">Team</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link d-inline-block color-white" href="#">Artifacts & Demos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link d-inline-block color-white" href="#">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                </header>
+
+              </div>
+            </div>
+          </article>
+
+
+
+          <article id="footer" class="bg-lightb">
+            <h2 class="display-4">Footer</h2>
+            <!-- <p><small>Add a footer element with a basic bootstrap structure <code>.container > .row > .col</code> and
+                inside place <code>nav > ul > li > a</code> for items. For copyright text, add a paragraph element with
+                class <code>.copyright</code></small></p> -->
+            <nav>
+              <div class="nav nav-tabs justify-content-end" id="nav-tab-footer" role="tablist">
+                <a class="nav-item nav-link active" id="nav-output-tab-footer" data-toggle="tab"
+                  href="#nav-output-footer" role="tab" aria-controls="nav-output" aria-selected="true">Output</a>
+                <a class="nav-item nav-link" id="nav-output-tab-footer" data-toggle="tab" href="#nav-code-footer"
+                  role="tab" aria-controls="nav-code" aria-selected="false">Code</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent-footer">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-footer" role="tabpanel"
+                aria-labelledby="nav-output-tab-footer">
+                <p class="lead">Grey</p>
+
+                <footer>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <nav>
+                          <ul>
+                            <li><a href="https://www.pwc.com/us/en/site/privacy.html">Privacy</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/privacy-shield.html">Privacy Shield</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site-information.html">Cookies info</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/legal.html">Legal</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/terms-and-conditions.html">Terms and
+                                conditions</a></li>
+                          </ul>
+                        </nav>
+                        <p class="copyright">© 2018 - 2019 PwC. All rights reserved. PwC refers to the US member firm or
+                          one of its
+                          subsidiaries or affiliates, and may sometimes refer to the PwC network. Each member firm is a
+                          separate legal
+                          entity. Please see www.pwc.com/structure for further details.</p>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+
+                <p class="lead mt-4">Black</p>
+                <footer class="black-footer">
+                  <div class="container">
+                    <div class="row no-gutters justify-content-center">
+                      <div class="col-12">
+                        <div class="row no-gutters">
+                          <p class="copyright col-lg-7 col-md-10 col-12">© 2018 - 2019 PwC. All rights reserved. PwC
+                            refers to the US
+                            member firm or one of its subsidiaries or affiliates, and may sometimes refer to the PwC
+                            network. Each
+                            member firm is a separate legal entity. Please see www.pwc.com/structure for further
+                            details.</p>
+                        </div>
+                        <nav>
+                          <ul>
+                            <li><a href="https://www.pwc.com/us/en/site/privacy.html">Privacy</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/privacy-shield.html">Privacy Shield</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site-information.html">Cookies info</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/legal.html">Legal</a></li>
+                            <li><a href="https://www.pwc.com/us/en/site/terms-and-conditions.html">Terms and
+                                conditions</a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+
+              </div>
+              <div class="tab-pane fade" id="nav-code-footer" role="tabpanel" aria-labelledby="nav-code-tab-footer">
+                <code>&lt;footer&gt;</code><br>
+                <code>&lt;div class="container"&gt;</code><br>
+                <code>&lt;div class="row"&gt;</code><br>
+                <code>&lt;div class="col"&gt;</code><br>
+                <code>&lt;nav&gt;</code><br>
+                <code>&lt;ul&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/privacy.html"&gt;Privacy&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/privacy-shield.html"&gt;Privacy Shield&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site-information.html"&gt;Cookies info&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/legal.html"&gt;Legal&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/terms-and-conditions.html"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;/ul&gt;</code><br>
+                <code>&lt;/nav&gt;</code><br>
+                <code>&lt;p class="copyright"&gt;© 2018 - 2019 PwC. All rights reserved. PwC refers to the US member firm or one of its
+                    subsidiaries or affiliates, and may sometimes refer to the PwC network. Each member firm is a separate legal
+                    entity. Please see www.pwc.com/structure for further details.&lt;/p&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/footer&gt;</code><br>
+
+                <h5 class="mt-4">Black footer</h5>
+                <code>&lt;footer class="black-footer"&gt;</code><br>
+                <code>&lt;div class="container"&gt;</code><br>
+                <code>&lt;div class="row no-gutters justify-content-center"&gt;</code><br>
+                <code>&lt;div class="col-12"&gt;</code><br>
+                <code>&lt;div class="row no-gutters"&gt;</code><br>
+                <code>&lt;p class="copyright col-lg-7 col-md-10 col-12"&gt;© 2018 - 2019 PwC. All rights reserved. PwC refers to the US member firm or one of its subsidiaries or affiliates, and may sometimes refer to the PwC network. Each member firm is a separate legal entity. Please see www.pwc.com/structure for further details.&lt;/p&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+
+                <code>&lt;nav&gt;</code><br>
+                <code>&lt;ul&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/privacy.html"&gt;Privacy&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/privacy-shield.html"&gt;Privacy Shield&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site-information.html"&gt;Cookies info&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/legal.html"&gt;Legal&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;li&gt;&lt;a href="https://www.pwc.com/us/en/site/terms-and-conditions.html"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;</code><br>
+                <code>&lt;/ul&gt;</code><br>
+                <code>&lt;/nav&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/div&gt;</code><br>
+                <code>&lt;/footer&gt;</code><br>
+              </div>
+            </div>
+          </article>
+
+          <article id="loader" class="bg-lightb">
+            <h2 class="display-4">Loader</h2>
+            <p><small>
+                This is a page loader that you can use in pages that require big files to load. just add the HTML Code
+                right after the body.<br>
+                there are three different themes, so you can add the one that matches your page color scheme!, just
+                change the clasess to: <code>Classic</code>, <code>darkMode</code> & <code>lightMode</code>.
+              </small></p>
+            <nav>
+              <div class="nav nav-tabs justify-content-end" id="nav-tab-loader" role="tablist">
+                <a class="nav-item nav-link active" id="nav-output-tab-loader" data-toggle="tab"
+                  href="#nav-output-loader" role="tab" aria-controls="nav-output" aria-selected="true">Output</a>
+                <a class="nav-item nav-link" id="nav-output-tab-loader" data-toggle="tab" href="#nav-code-loader"
+                  role="tab" aria-controls="nav-code" aria-selected="false">Code</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent-loader">
+              <br>
+              <div class="tab-pane fade show active" id="nav-output-loader" role="tabpanel"
+                aria-labelledby="nav-output-tab-loader">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 p-5 text-center">
+                      <h4>Classic Theme</h4>
+                      <img class="img-fluid imgLoader"
+                        src="https://asseststemplate.sitefactory.pwc.com/sites/g/files/fbjmre4626/files/2020-03/Classic.jpg">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-6 p-5 text-center">
+                      <h4>Light Theme</h4>
+                      <img class="img-fluid imgLoader"
+                        src="https://asseststemplate.sitefactory.pwc.com/sites/g/files/fbjmre4626/files/2020-03/lightMode.jpg">
+                    </div>
+                    <div class="col-12 col-md-6 p-5 text-center">
+                      <h4>Dark Theme</h4>
+                      <img class="img-fluid imgLoader"
+                        src="https://asseststemplate.sitefactory.pwc.com/sites/g/files/fbjmre4626/files/2020-03/darkMode.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-code-loader" role="tabpanel" aria-labelledby="nav-code-tab-loader">
+                <h4>HTML</h4>
+                <code>&lt;!--Classic color scheme--&gt;</code><br>
+                <code>&lt;div class="frame Classic"&gt;</code><br>
+                <code>&lt;/div&gt;</code>
+                <br>
+                <br>
+                <code>&lt;!--Dark-Mode color scheme--&gt;</code><br>
+                <code>&lt;div class="frame darkMode"&gt;</code><br>
+                <code>&lt;/div&gt;</code>
+                <br>
+                <br>
+                <code>&lt;!--Light-Mode color scheme--&gt;</code><br>
+                <code>&lt;div class="frame lightMode"&gt;</code><br>
+                <code>&lt;/div&gt;</code>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Normalize JavasScript -->
+  <script src="js/normalize.js"></script>
+
+</body>
+
+
+
+</html>
